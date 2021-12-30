@@ -1,23 +1,13 @@
-/* You can add global styles to this file, and also import other style files */
-/* Application-wide Styles */
-h1 {
-  color: #369;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 250%;
-}
-h2, h3 {
-  color: #444;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: lighter;
-}
+
 body {
-  margin: 2em;
+  font-family: -apple-system,BlinkMacSystemFont,Helvetica Neue,PingFang SC,Microsoft YaHei,Source Han Sans SC,Noto Sans CJK SC,WenQuanYi Micro Hei,sans-serif;
+  font-size: 15px;
+  color: #1a1a1a;
+  background: #f6f6f6;
+  margin:0;
+  -webkit-tap-highlight-color: rgba(26,26,26,0);
 }
-body, input[text], button {
-  color: #888;
-  font-family: Cambria, Georgia;
-}
-/* everywhere else */
-* {
-  font-family: Arial, Helvetica, sans-serif;
+
+a {
+  text-decoration: none;
 }
